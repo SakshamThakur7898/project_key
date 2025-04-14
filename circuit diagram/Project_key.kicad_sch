@@ -1,0 +1,3020 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "fe06c10b-52f8-4a42-998b-54b6b0b855b9")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Diode:1N4148"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100V 0.15A standard switching diode, DO-35"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push_Dual_x2"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push_Dual_x2"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, separate symbols, four pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_Dual_x2_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Push_Dual_x2_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_Push_Dual_x2_2_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(circle
+		(center 162.56 74.93)
+		(radius 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0518621b-5b26-4fee-b806-672a118a44a3)
+	)
+	(circle
+		(center 154.94 74.93)
+		(radius 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 05948d80-f2cb-46c5-af36-dca6441e628b)
+	)
+	(rectangle
+		(start 178.435 66.675)
+		(end 182.245 71.12)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 097fee44-e043-4e5b-8367-cd553b3736b9)
+	)
+	(circle
+		(center 139.7 74.93)
+		(radius 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2cbcc4e8-576e-4a9c-8856-dda96044570b)
+	)
+	(circle
+		(center 177.8 63.5)
+		(radius 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 342617b8-b901-407e-824b-311f3324c64f)
+	)
+	(circle
+		(center 173.99 74.93)
+		(radius 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3e971b4d-f2b8-4aec-93e9-3bb2719beae3)
+	)
+	(circle
+		(center 154.94 63.5)
+		(radius 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 64a21d65-2184-4dd6-abd4-724b80796096)
+	)
+	(circle
+		(center 139.7 63.5)
+		(radius 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7282f216-4ca1-4dfd-8931-c7c56bc67fad)
+	)
+	(circle
+		(center 151.13 74.93)
+		(radius 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 768dfb49-5dd2-44b8-90ff-64fd1d0ac434)
+	)
+	(circle
+		(center 135.89 74.93)
+		(radius 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7a21628d-c64a-471e-bb85-3fa9bf82ff60)
+	)
+	(circle
+		(center 166.37 74.93)
+		(radius 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 83a43e03-ee66-4b47-905c-ca5d0a86445a)
+	)
+	(circle
+		(center 147.32 74.93)
+		(radius 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 892f1db1-1a4b-494d-bce2-b308eeb2f23e)
+	)
+	(circle
+		(center 143.51 63.5)
+		(radius 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8cf7c058-f225-460d-884b-000c1b5790cf)
+	)
+	(circle
+		(center 177.8 74.93)
+		(radius 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 98803821-da72-4e3d-ba32-4bfd182a40a8)
+	)
+	(circle
+		(center 158.75 63.5)
+		(radius 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9e35f047-ab02-44aa-80b0-4ec54e02d40d)
+	)
+	(circle
+		(center 151.13 63.5)
+		(radius 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid aa1259ce-1f04-4cf8-abcc-5a4a723e414f)
+	)
+	(circle
+		(center 166.37 63.5)
+		(radius 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ad90b8bb-2e53-43e3-98f3-c3b7b392a7c8)
+	)
+	(circle
+		(center 143.51 74.93)
+		(radius 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid be3634a4-672c-483b-a4ad-4dfd09bd0891)
+	)
+	(circle
+		(center 158.75 74.93)
+		(radius 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c128533e-9cc2-40ad-bb76-ffc9cd11eecd)
+	)
+	(circle
+		(center 170.18 74.93)
+		(radius 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cc033787-670f-4b26-8ca7-f3b5ee800648)
+	)
+	(circle
+		(center 173.99 63.5)
+		(radius 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cdfc75a5-5f70-41fc-81a9-48db61e126da)
+	)
+	(circle
+		(center 135.89 63.5)
+		(radius 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d293138a-db43-40b4-9387-9532e79ce68a)
+	)
+	(circle
+		(center 147.32 63.5)
+		(radius 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid edc58d0f-2379-4627-a346-939db6dacf16)
+	)
+	(circle
+		(center 162.56 63.5)
+		(radius 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f00995e5-39d2-4c97-8830-2c0c7e2ad693)
+	)
+	(circle
+		(center 170.18 63.5)
+		(radius 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fc44f8ac-f8dd-4070-95cb-a0ce2d84b587)
+	)
+	(rectangle
+		(start 133.35 60.96)
+		(end 180.34 77.47)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fe2a2c88-e954-485c-9f6d-c8caa342f362)
+	)
+	(text "A2"
+		(exclude_from_sim no)
+		(at 158.75 74.93 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "02b2e7fc-e423-406b-b108-23316463b32f")
+	)
+	(text "A3"
+		(exclude_from_sim no)
+		(at 162.56 74.93 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "03f2b09f-c9a5-40a4-ae09-a71469af71df")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 170.18 63.5 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "04e9697e-114f-4ed8-9670-d18263d0b5d4")
+	)
+	(text "7"
+		(exclude_from_sim no)
+		(at 143.51 63.5 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "07a665db-e396-4f2d-9008-7a96579d54b0")
+	)
+	(text "TX0"
+		(exclude_from_sim no)
+		(at 177.8 63.5 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "088c3e5c-d60f-494f-b0df-fa78904a9f67")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 135.89 63.5 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "140ed952-53be-49c8-869e-b85783f3f6fb")
+	)
+	(text "16"
+		(exclude_from_sim no)
+		(at 139.7 74.93 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "16a6a67b-16ed-45b1-8a52-6a45f03d095b")
+	)
+	(text "3"
+		(exclude_from_sim no)
+		(at 158.75 63.5 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "16d62bbd-0e7f-49c9-82b2-472921aa6397")
+	)
+	(text "10\n"
+		(exclude_from_sim no)
+		(at 135.89 74.93 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "1b0fce0e-5106-4661-aacc-972f1a07c0af")
+	)
+	(text "Outemu blue 2 pin "
+		(exclude_from_sim no)
+		(at 127 121.92 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "1d854a88-a75b-44de-aecc-8cff69591250")
+	)
+	(text "Outemu blue 2 pin "
+		(exclude_from_sim no)
+		(at 127 109.22 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "225c1a4d-76cb-46c2-85b7-09cad424ef9d")
+	)
+	(text "Outemu blue 2 pin "
+		(exclude_from_sim no)
+		(at 127 96.52 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "324cdf18-ea03-49c0-a6f5-04a33424a25e")
+	)
+	(text "15"
+		(exclude_from_sim no)
+		(at 147.32 74.93 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "485bf8db-20ff-4f37-83b2-b0ff2b5ff246")
+	)
+	(text "Outemu blue 2 pin "
+		(exclude_from_sim no)
+		(at 181.61 107.95 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "492aa3fb-f87b-4279-a86a-7653ba552ae7")
+	)
+	(text "4\n"
+		(exclude_from_sim no)
+		(at 154.94 63.5 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "4c4bce82-c4d5-46a5-bf41-0857e2b63de6")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 166.37 63.5 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "4d3fe4cf-4455-47ac-96c4-393d39968c3e")
+	)
+	(text "A0"
+		(exclude_from_sim no)
+		(at 151.13 74.93 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "553275bd-fc3b-452e-8ffe-1b6da159b50c")
+	)
+	(text "5"
+		(exclude_from_sim no)
+		(at 151.13 63.5 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "5965aef3-8fa7-4c10-a7db-4fa2600437a8")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 173.99 74.93 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "5f42ee5b-d33e-4f66-9aa7-c8e9e13f9519")
+	)
+	(text "RX1"
+		(exclude_from_sim no)
+		(at 173.99 63.5 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "7ac1134f-348d-43b0-ae45-f43117486af1")
+	)
+	(text "VCC"
+		(exclude_from_sim no)
+		(at 166.37 74.93 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "8394ec73-cc60-4001-879b-da4c607e644f")
+	)
+	(text "Outemu red 2 pin "
+		(exclude_from_sim no)
+		(at 181.61 121.92 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "87cf1dd9-1ace-414c-9145-a9cf94a4104f")
+	)
+	(text "2\n\n"
+		(exclude_from_sim no)
+		(at 162.56 64.77 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "951d58c1-96fb-49d4-ad3f-22f8c0861ecb")
+	)
+	(text "Outemu blue 2 pin "
+		(exclude_from_sim no)
+		(at 181.61 96.52 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "9e70f2fe-ac30-4a7d-8360-a72773b3fdc0")
+	)
+	(text "Outemu blue 2 pin "
+		(exclude_from_sim no)
+		(at 154.94 109.22 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "a19e7df1-de06-41ae-a374-fcdb14210351")
+	)
+	(text "Outemu blue 2 pin "
+		(exclude_from_sim no)
+		(at 154.94 96.52 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "ab7c7211-27bc-4a1c-8889-332e6adc27fb")
+	)
+	(text "PRO MICRO"
+		(exclude_from_sim no)
+		(at 135.89 69.85 90)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "aeac5ba7-50aa-4433-91f9-33bc0b9662ba")
+	)
+	(text "RST"
+		(exclude_from_sim no)
+		(at 170.18 74.93 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "aeef6024-9f3b-4625-b36a-5c42922830ba")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 147.32 63.5 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "bccc670c-867a-48c2-9fa7-ecbc0592266e")
+	)
+	(text "A1"
+		(exclude_from_sim no)
+		(at 154.94 74.93 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "caab519e-c5c1-4103-899d-2c8a3982b2ba")
+	)
+	(text "Outemu blue 2 pin "
+		(exclude_from_sim no)
+		(at 154.94 121.92 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "d71c4912-a829-49ef-95d6-68f4fd117a12")
+	)
+	(text "8"
+		(exclude_from_sim no)
+		(at 139.7 63.5 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "d74ab234-67fb-4333-acb9-3ed1fe2d8327")
+	)
+	(text "RAW"
+		(exclude_from_sim no)
+		(at 177.8 74.93 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "eb1806e4-2427-48cc-9a86-92d278d02512")
+	)
+	(text "14"
+		(exclude_from_sim no)
+		(at 143.51 74.93 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "ef15cc68-e420-490e-96e5-8c8dd1d99f8f")
+	)
+	(junction
+		(at 160.02 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16dbb2e8-b39a-4bac-b97f-bd7f4b4e3b85")
+	)
+	(junction
+		(at 149.86 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65a7fe97-5a93-4715-ba28-b59a1bbb0aa4")
+	)
+	(junction
+		(at 160.02 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c508efc-3a63-43e8-9ac4-aafa02e1e47f")
+	)
+	(junction
+		(at 160.02 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f992c07-c322-40a2-b4b0-8ddb0e16c696")
+	)
+	(junction
+		(at 176.53 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "853bfe68-2eea-45c7-963e-86ac32f37dae")
+	)
+	(junction
+		(at 121.92 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91e861fc-4372-4cf7-bf75-6d22c274e43f")
+	)
+	(junction
+		(at 132.08 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a84e185c-3435-48f2-bd3e-d07becffbdc4")
+	)
+	(junction
+		(at 121.92 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aad51c2b-cb40-44f1-adea-58db11325c0e")
+	)
+	(junction
+		(at 132.08 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c21c111d-a114-494b-a475-0c148bd09a59")
+	)
+	(junction
+		(at 149.86 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d44b9f85-68f6-4cbf-94f7-b04477b8051e")
+	)
+	(junction
+		(at 132.08 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eff834f2-0a3d-44a8-aa83-244ce681a81b")
+	)
+	(junction
+		(at 176.53 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f99c4940-826c-4901-92db-7f6773da0460")
+	)
+	(wire
+		(pts
+			(xy 176.53 100.33) (xy 168.91 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "003ff42d-4d4f-476d-b31d-d2b9660a9910")
+	)
+	(wire
+		(pts
+			(xy 176.53 113.03) (xy 176.53 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d9a9e02-b50e-488e-b809-e6366e8d51aa")
+	)
+	(wire
+		(pts
+			(xy 120.65 90.17) (xy 120.65 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "123bec7b-08aa-40e5-a9a4-868248528c59")
+	)
+	(wire
+		(pts
+			(xy 158.75 53.34) (xy 158.75 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cf0a618-3aaa-4606-a67f-409f6554ef2e")
+	)
+	(wire
+		(pts
+			(xy 160.02 120.65) (xy 186.69 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1db6918d-95ce-4e65-be76-a37533f4b221")
+	)
+	(wire
+		(pts
+			(xy 123.19 87.63) (xy 123.19 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2781f78d-f0ca-44cf-8ec8-f7b6fab982f2")
+	)
+	(wire
+		(pts
+			(xy 107.95 133.35) (xy 107.95 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cab6f5a-86f7-43fb-a3ef-5ce3ddbea37c")
+	)
+	(wire
+		(pts
+			(xy 168.91 87.63) (xy 123.19 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3093fd2d-a684-4403-98e3-ff9e6a23f617")
+	)
+	(wire
+		(pts
+			(xy 114.3 49.53) (xy 151.13 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37834f61-f04e-40a6-b670-7c64bb9cff6f")
+	)
+	(wire
+		(pts
+			(xy 132.08 107.95) (xy 160.02 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f2806d2-2759-47e5-9d87-35304e03803e")
+	)
+	(wire
+		(pts
+			(xy 132.08 120.65) (xy 160.02 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e7317d-958e-41fd-b854-f40b4eb88dd5")
+	)
+	(wire
+		(pts
+			(xy 123.19 55.88) (xy 154.94 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47aa45ad-fc34-48ed-abbf-14ff77296909")
+	)
+	(wire
+		(pts
+			(xy 168.91 100.33) (xy 168.91 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a040006-31a4-4d99-844a-b6a08489fc0a")
+	)
+	(wire
+		(pts
+			(xy 110.49 57.15) (xy 110.49 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53dc933d-ca6a-47d3-a951-81fa424eea6a")
+	)
+	(wire
+		(pts
+			(xy 151.13 49.53) (xy 151.13 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a833eba-921e-47ff-9a87-08ede106bf04")
+	)
+	(wire
+		(pts
+			(xy 162.56 50.8) (xy 162.56 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bdd0149-f686-4641-abd4-0008ba587052")
+	)
+	(wire
+		(pts
+			(xy 153.67 100.33) (xy 149.86 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a60046b-c71c-417e-a922-257c4cd6e137")
+	)
+	(wire
+		(pts
+			(xy 176.53 100.33) (xy 176.53 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b094b38-03ad-46d2-a4e9-a1eaa044f628")
+	)
+	(wire
+		(pts
+			(xy 154.94 55.88) (xy 154.94 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73250382-9dbc-4206-8706-3acda1ca6de5")
+	)
+	(wire
+		(pts
+			(xy 121.92 100.33) (xy 116.84 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "750c7434-a0cb-4978-926b-a3e80b2c6fd2")
+	)
+	(wire
+		(pts
+			(xy 149.86 113.03) (xy 149.86 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88b4166f-09bf-4c90-a00a-2a66b7509a54")
+	)
+	(wire
+		(pts
+			(xy 107.95 59.69) (xy 143.51 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8996b4bf-43b2-4833-8cf6-bd69548be58c")
+	)
+	(wire
+		(pts
+			(xy 147.32 57.15) (xy 110.49 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b7025cc-5c02-439f-9594-f891f4d138ab")
+	)
+	(wire
+		(pts
+			(xy 132.08 107.95) (xy 114.3 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e6c09fb-672f-4ccd-9578-9ba6764a6168")
+	)
+	(wire
+		(pts
+			(xy 142.24 100.33) (xy 142.24 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f06d776-21b1-4ce7-afda-5cd5fb41d4d2")
+	)
+	(wire
+		(pts
+			(xy 143.51 59.69) (xy 143.51 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97dccd02-e6b0-443c-b709-4e5388ffdaaf")
+	)
+	(wire
+		(pts
+			(xy 160.02 133.35) (xy 186.69 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ecf8e25-ef9b-44f4-8bd5-6454c8a40f8d")
+	)
+	(wire
+		(pts
+			(xy 120.65 53.34) (xy 158.75 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1a53d29-05c1-4e12-93c2-d0e1bfacf540")
+	)
+	(wire
+		(pts
+			(xy 107.95 133.35) (xy 132.08 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a66983ee-df92-49f8-aa55-e6c6d036e2f3")
+	)
+	(wire
+		(pts
+			(xy 142.24 90.17) (xy 120.65 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9eac90c-8874-4750-a75a-a80efd2943cd")
+	)
+	(wire
+		(pts
+			(xy 160.02 107.95) (xy 186.69 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc61567f-effe-4cc5-89c2-4b85ab026af3")
+	)
+	(wire
+		(pts
+			(xy 116.84 50.8) (xy 162.56 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6e58dd2-d5d3-43f1-8c12-02d30d496b50")
+	)
+	(wire
+		(pts
+			(xy 149.86 100.33) (xy 142.24 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca1dfc7a-e6b0-4a88-ba57-893ce56b03ad")
+	)
+	(wire
+		(pts
+			(xy 121.92 100.33) (xy 121.92 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf4722d0-45a3-444a-87a8-4131970b1815")
+	)
+	(wire
+		(pts
+			(xy 110.49 120.65) (xy 132.08 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d06d1aac-87ce-4bb6-924e-bb2834e17bb8")
+	)
+	(wire
+		(pts
+			(xy 132.08 133.35) (xy 160.02 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2a7e9cf-9278-45db-a2d3-3682538d02b3")
+	)
+	(wire
+		(pts
+			(xy 121.92 113.03) (xy 121.92 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e08d97d2-f796-4e7b-9be6-9c73d3621d85")
+	)
+	(wire
+		(pts
+			(xy 149.86 100.33) (xy 149.86 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f461126a-15c4-4e06-9040-a5d4d55cd9cd")
+	)
+	(wire
+		(pts
+			(xy 116.84 100.33) (xy 116.84 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f71e9a26-5a03-4958-8796-b68944d03b7e")
+	)
+	(wire
+		(pts
+			(xy 147.32 62.23) (xy 147.32 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feaec526-905e-48dd-a362-e002642f3c64")
+	)
+	(wire
+		(pts
+			(xy 114.3 107.95) (xy 114.3 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "febfbccb-57f6-46a1-ade4-37c47a8f38e2")
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_Dual_x2")
+		(at 127 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16704173-9a10-4a47-93ed-99e622708665")
+		(property "Reference" "SW7"
+			(at 127 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SW_Push_Dual_x2"
+			(at 127.254 121.666 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, separate symbols, four pins"
+			(at 127 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e0f1400c-d46d-47d8-a0d7-f0071a08d360")
+		)
+		(pin "1"
+			(uuid "d35f6abb-1328-4295-bd11-5efea3f812b6")
+		)
+		(pin "3"
+			(uuid "4e871cc5-cfa8-40ef-adf6-93751f62f09f")
+		)
+		(pin "4"
+			(uuid "77950e3b-c272-4304-9c9c-73b23ae50dc8")
+		)
+		(instances
+			(project ""
+				(path "/fe06c10b-52f8-4a42-998b-54b6b0b855b9"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 186.69 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17326864-6607-4d57-bac3-985f50abeb19")
+		(property "Reference" "D9"
+			(at 189.23 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 189.23 130.8099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 186.69 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 186.69 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 186.69 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 186.69 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 186.69 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dddefcb8-0c10-4ece-aea6-287c0d55a196")
+		)
+		(pin "2"
+			(uuid "e663b0e9-5488-4f86-bb1a-620d7512a451")
+		)
+		(instances
+			(project "Project_key"
+				(path "/fe06c10b-52f8-4a42-998b-54b6b0b855b9"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 132.08 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b3c50e3-7313-4e19-87d8-1ede1385cc61")
+		(property "Reference" "D2"
+			(at 134.62 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 134.62 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 132.08 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 132.08 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 132.08 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 132.08 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 132.08 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "890e90e0-5df4-4225-ba68-cb218891c725")
+		)
+		(pin "1"
+			(uuid "a5aff8cd-1401-49ff-84d4-f9dd586ee1e9")
+		)
+		(instances
+			(project ""
+				(path "/fe06c10b-52f8-4a42-998b-54b6b0b855b9"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_Dual_x2")
+		(at 181.61 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26f31308-e2a4-4e1e-886f-1d6fca3bc2f8")
+		(property "Reference" "SW2"
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SW_Push_Dual_x2"
+			(at 181.61 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, separate symbols, four pins"
+			(at 181.61 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4a4e9c4d-d8e9-4ff7-b333-91faf9164dbf")
+		)
+		(pin "3"
+			(uuid "42200b1c-4b6d-4987-8cd1-2132262cc233")
+		)
+		(pin "1"
+			(uuid "46686c3e-2bb4-4683-ac60-e147b9fa56de")
+		)
+		(pin "2"
+			(uuid "bacbdd5b-21d7-4293-812c-9192fb5e73f6")
+		)
+		(instances
+			(project ""
+				(path "/fe06c10b-52f8-4a42-998b-54b6b0b855b9"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_Dual_x2")
+		(at 154.94 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fc282f1-9396-446b-9fa3-1792ce1b951a")
+		(property "Reference" "SW4"
+			(at 154.94 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SW_Push_Dual_x2"
+			(at 154.94 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, separate symbols, four pins"
+			(at 154.94 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "98d98ad7-5f5b-4bb9-8fe5-bec9b1a02c72")
+		)
+		(pin "3"
+			(uuid "0b449447-bfd5-4a5e-a0f2-72c6e820e7d9")
+		)
+		(pin "4"
+			(uuid "ede972bc-733e-40b0-87b8-5886478308a8")
+		)
+		(pin "1"
+			(uuid "c6bffe15-fde1-492a-b1a7-9645ba432c5c")
+		)
+		(instances
+			(project ""
+				(path "/fe06c10b-52f8-4a42-998b-54b6b0b855b9"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 186.69 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "605f16fd-bbe2-4b99-bc0e-ee490d2235fa")
+		(property "Reference" "D8"
+			(at 189.23 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 189.23 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 186.69 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 186.69 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 186.69 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 186.69 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 186.69 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29344f34-74bd-492a-bcf6-edd247679344")
+		)
+		(pin "2"
+			(uuid "3da41d3d-7c10-4c4f-a83c-3a1b1f41b570")
+		)
+		(instances
+			(project "Project_key"
+				(path "/fe06c10b-52f8-4a42-998b-54b6b0b855b9"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 160.02 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67b8f2c7-484f-47a8-abfe-95df0c2e3aa6")
+		(property "Reference" "D5"
+			(at 162.56 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 162.56 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 160.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 160.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 160.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 160.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 160.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3a4b699-482b-4c9e-8934-269452d49ea4")
+		)
+		(pin "2"
+			(uuid "b1f68e65-24ee-4a74-814f-681202c42c0b")
+		)
+		(instances
+			(project "Project_key"
+				(path "/fe06c10b-52f8-4a42-998b-54b6b0b855b9"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_Dual_x2")
+		(at 127 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68bfba17-126b-4a4d-933f-2aeeb37caa55")
+		(property "Reference" "SW3"
+			(at 127 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SW_Push_Dual_x2"
+			(at 127 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, separate symbols, four pins"
+			(at 127 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8904a36f-c166-4eca-8d5e-8492842d9127")
+		)
+		(pin "3"
+			(uuid "c09889e1-33dc-4eb6-a2b5-b71a02436fc9")
+		)
+		(pin "1"
+			(uuid "2f9023d5-6e55-44f8-8d57-52a797e90df8")
+		)
+		(pin "4"
+			(uuid "b340dec8-28b2-4946-b2a3-33788c51884e")
+		)
+		(instances
+			(project ""
+				(path "/fe06c10b-52f8-4a42-998b-54b6b0b855b9"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_Dual_x2")
+		(at 181.61 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a713ed7-a7a8-4bde-8480-0fa5124aadc5")
+		(property "Reference" "SW6"
+			(at 181.61 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SW_Push_Dual_x2"
+			(at 181.61 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, separate symbols, four pins"
+			(at 181.61 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "98d98ad7-5f5b-4bb9-8fe5-bec9b1a02c72")
+		)
+		(pin "3"
+			(uuid "0b449447-bfd5-4a5e-a0f2-72c6e820e7d9")
+		)
+		(pin "4"
+			(uuid "ede972bc-733e-40b0-87b8-5886478308a8")
+		)
+		(pin "1"
+			(uuid "c6bffe15-fde1-492a-b1a7-9645ba432c5c")
+		)
+		(instances
+			(project ""
+				(path "/fe06c10b-52f8-4a42-998b-54b6b0b855b9"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_Dual_x2")
+		(at 127 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c482d71-bd59-49ef-b8ef-3992ba76417f")
+		(property "Reference" "SW4"
+			(at 127 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SW_Push_Dual_x2"
+			(at 127 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, separate symbols, four pins"
+			(at 127 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4a4e9c4d-d8e9-4ff7-b333-91faf9164dbf")
+		)
+		(pin "3"
+			(uuid "42200b1c-4b6d-4987-8cd1-2132262cc233")
+		)
+		(pin "1"
+			(uuid "46686c3e-2bb4-4683-ac60-e147b9fa56de")
+		)
+		(pin "2"
+			(uuid "bacbdd5b-21d7-4293-812c-9192fb5e73f6")
+		)
+		(instances
+			(project ""
+				(path "/fe06c10b-52f8-4a42-998b-54b6b0b855b9"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 132.08 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "989d6e8d-25cb-4a13-bade-80879a0eacdf")
+		(property "Reference" "D1"
+			(at 134.62 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 134.62 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 132.08 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 132.08 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 132.08 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 132.08 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 132.08 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d1cd128-2557-492c-87f4-83cea50680a9")
+		)
+		(pin "2"
+			(uuid "1bd234ce-f671-4eac-99b2-67efbdca3a07")
+		)
+		(instances
+			(project ""
+				(path "/fe06c10b-52f8-4a42-998b-54b6b0b855b9"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_Dual_x2")
+		(at 154.94 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a64464be-65ae-401e-84eb-83a52f9b37c2")
+		(property "Reference" "SW1"
+			(at 154.94 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SW_Push_Dual_x2"
+			(at 154.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, separate symbols, four pins"
+			(at 154.94 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1187393c-9a99-441a-9ce6-249cc17980a8")
+		)
+		(pin "4"
+			(uuid "394161c7-9e01-4083-8ddc-dd169108732a")
+		)
+		(pin "2"
+			(uuid "9dcb8e9c-ca4d-4d5e-a7c1-10246eef61ad")
+		)
+		(pin "1"
+			(uuid "0f2f6da1-53d6-4f9c-b401-c4f5573e6e29")
+		)
+		(instances
+			(project ""
+				(path "/fe06c10b-52f8-4a42-998b-54b6b0b855b9"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 132.08 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db2506f0-f6b5-47ee-a00d-6297c92bdc95")
+		(property "Reference" "D3"
+			(at 134.62 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 134.62 130.8099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 132.08 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 132.08 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 132.08 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 132.08 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 132.08 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8ab469fa-1406-4589-bc4b-7cfc6088aef2")
+		)
+		(pin "1"
+			(uuid "dab5566b-5240-46cd-964e-b02dd4544322")
+		)
+		(instances
+			(project ""
+				(path "/fe06c10b-52f8-4a42-998b-54b6b0b855b9"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_Dual_x2")
+		(at 181.61 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e25f118d-4296-4274-86c0-93dad15e6df2")
+		(property "Reference" "SW3"
+			(at 181.61 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SW_Push_Dual_x2"
+			(at 181.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, separate symbols, four pins"
+			(at 181.61 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1187393c-9a99-441a-9ce6-249cc17980a8")
+		)
+		(pin "4"
+			(uuid "394161c7-9e01-4083-8ddc-dd169108732a")
+		)
+		(pin "2"
+			(uuid "9dcb8e9c-ca4d-4d5e-a7c1-10246eef61ad")
+		)
+		(pin "1"
+			(uuid "0f2f6da1-53d6-4f9c-b401-c4f5573e6e29")
+		)
+		(instances
+			(project ""
+				(path "/fe06c10b-52f8-4a42-998b-54b6b0b855b9"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 160.02 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eec3ee6e-d047-42ad-a956-a6701d7d91b8")
+		(property "Reference" "D6"
+			(at 162.56 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 162.56 130.8099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 160.02 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 160.02 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 160.02 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 160.02 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 160.02 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a925785-69ba-4f28-8f9c-a72b7b4f57bd")
+		)
+		(pin "2"
+			(uuid "2ff2199c-850f-4fe7-a0b3-2b6432a8af7b")
+		)
+		(instances
+			(project "Project_key"
+				(path "/fe06c10b-52f8-4a42-998b-54b6b0b855b9"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 160.02 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eee68aa7-dcd2-46a3-a1aa-94c9c5178ef7")
+		(property "Reference" "D4"
+			(at 162.56 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 162.56 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 160.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 160.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 160.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 160.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 160.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce3d89ce-4565-4891-9332-9401de5b6bf0")
+		)
+		(pin "2"
+			(uuid "58d6fa13-5cca-4dbc-b402-d498e144dc0f")
+		)
+		(instances
+			(project "Project_key"
+				(path "/fe06c10b-52f8-4a42-998b-54b6b0b855b9"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_Dual_x2")
+		(at 154.94 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f941e6b9-1edc-4938-9ba1-2da7539e7ffc")
+		(property "Reference" "SW5"
+			(at 154.94 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SW_Push_Dual_x2"
+			(at 154.94 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, separate symbols, four pins"
+			(at 154.94 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8904a36f-c166-4eca-8d5e-8492842d9127")
+		)
+		(pin "3"
+			(uuid "c09889e1-33dc-4eb6-a2b5-b71a02436fc9")
+		)
+		(pin "1"
+			(uuid "2f9023d5-6e55-44f8-8d57-52a797e90df8")
+		)
+		(pin "4"
+			(uuid "b340dec8-28b2-4946-b2a3-33788c51884e")
+		)
+		(instances
+			(project ""
+				(path "/fe06c10b-52f8-4a42-998b-54b6b0b855b9"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 186.69 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff7003a5-1829-4254-ac5e-c98c58ba5dc6")
+		(property "Reference" "D7"
+			(at 189.23 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 189.23 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 186.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 186.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 186.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 186.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 186.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da1df947-75b1-45fb-b490-8a70cc6b5fcc")
+		)
+		(pin "2"
+			(uuid "e7f8f5e2-a5b9-4855-b7fd-1d989560c6eb")
+		)
+		(instances
+			(project "Project_key"
+				(path "/fe06c10b-52f8-4a42-998b-54b6b0b855b9"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 133.35 60.96)
+		(size 46.99 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "99cf3c75-f7d8-453e-b36d-f65a1c06d2d4")
+		(property "Sheetname" "ATmega32U4"
+			(at 133.35 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ATmega32U4_sch.kicad_sch"
+			(at 133.35 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Project_key"
+				(path "/fe06c10b-52f8-4a42-998b-54b6b0b855b9"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
