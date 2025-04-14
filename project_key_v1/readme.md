@@ -4,7 +4,7 @@
 
 *A short description of the keyboard/project*
 
-* Keyboard Maintainer: [Saksham_Thakur](https://github.com/Saksham_Thakur)
+* Keyboard Maintainer: [Saksham_Thakur](https://github.com/saksthamthakur7898)
 * Hardware Supported: *The PCBs, controllers supported*
 * Hardware Availability: *Links to where you can find this hardware*
 
