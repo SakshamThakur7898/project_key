@@ -1,0 +1,103 @@
+PROJECT SYNOPSIS  
+
+Title: Handwired 3x3 Macropad using ATmega32U4 Microcontroller
+
+Submitted to:  
+Mr. XYZ  
+(Professor/Guide Name)  
+
+Submitted by:  
+[Your Name]  
+[Team Member Names]  
+[College Name]  
+
+---
+
+INTRODUCTION:  
+In the modern computing environment, efficiency and ease of access to frequently used commands are crucial. A macropad is a compact and customizable keypad that provides additional input options to enhance workflow. This project focuses on designing and building a **handwired 3x3 macropad** utilizing the **ATmega32U4 microcontroller**, which natively supports USB HID (Human Interface Device) functionality. The macropad will allow users to program custom keybindings for various applications, such as gaming, video editing, and software development. Additionally, future integration of **VIA compatibility** will allow for real-time key remapping without requiring firmware reflashing, making the device more user-friendly.
+
+---
+
+OBJECTIVE  
+
+The objectives of this project are:  
+- To design and develop a compact **9-key macropad** with customizable key functions.  
+- To implement **USB HID functionality** using the **ATmega32U4 microcontroller**.  
+- To enable **key remapping** using open-source firmware such as **QMK or Arduino-based firmware**.  
+- To code a **custom firmware using QMK** to define key functions and macros.  
+- To design a **custom housing** for the macropad to enhance usability and aesthetics.  
+- To flash the **firmware onto the microcontroller** to ensure proper functionality.  
+- To explore the addition of **VIA support**, allowing for real-time key remapping via a graphical interface.  
+- To provide an efficient and cost-effective solution for productivity and gaming.  
+- To gain hands-on experience with **microcontroller programming, circuit design, and firmware customization**.  
+
+---
+
+MODIFICATION AND IMPROVEMENT OVER EXISTING IMPLEMENTATION  
+
+Present State of Project:  
+- The macropad design is in the conceptual phase.  
+- Circuit wiring and component selection are yet to be finalized.  
+- No firmware has been written or flashed onto the microcontroller.  
+- No physical prototype has been built or tested.  
+
+After Implementation of Project:  
+- **Fully assembled and functional** 3x3 macropad with mechanical switches.  
+- **Customizable macros** for gaming, programming, and multimedia controls.  
+- **USB plug-and-play functionality** with no additional software required.  
+- **Multiple key layers** for expanded functionality beyond 9 keys.  
+- **Custom housing designed and fabricated** for improved durability and usability.  
+- **Open-source firmware** for user-defined keybindings and customization.  
+- **Future integration of VIA support** for easy key remapping via a user-friendly interface.
+
+---
+
+SCOPE OF PROJECT  
+
+This project has a large scope, as it provides the following features:  
+- **Automation of repetitive tasks** using macros.  
+- **Customizable key mappings** for different applications.  
+- **Handwired circuit design** for better understanding of hardware connections.  
+- **Cross-platform compatibility** (Windows, macOS, Linux).  
+- **Potential for expansion** (RGB lighting, rotary encoders, wireless functionality).  
+- **Planned VIA compatibility** for real-time key mapping adjustments without firmware reflashing.
+
+---
+
+SIGNIFICANCE OF PROJECT  
+
+The significance of this project is to provide the following benefits:  
+- A practical, hands-on learning experience in **embedded systems and hardware interfacing**.  
+- An **affordable and efficient** solution compared to commercial macro keypads.  
+- A **flexible and customizable** device for various professional and personal uses.  
+- An open-source project that can be modified and improved by the community.  
+- Future **VIA support for dynamic key customization**, improving accessibility for non-programmers.
+
+---
+
+TOOLS AND TECHNOLOGY USED  
+
+Hardware:  
+- **ATmega32U4-based microcontroller** (Arduino Pro Micro).  
+- Mechanical switches (Cherry MX, Gateron, or equivalent).  
+- 1N4148 switching diodes for matrix wiring.  
+- USB-C/Micro USB connectivity.  
+
+Software & Programming Languages:  
+- **QMK Firmware** or **Arduino IDE (C/C++)** for firmware development.  
+- **VIA firmware support (planned future feature)** for dynamic key remapping.  
+- **KiCad/Eagle** for schematic and PCB design (optional).  
+- **Fusion 360/Blender** for enclosure design (optional).  
+
+---
+
+REFERENCES  
+- QMK Documentation: [https://qmk.fm](https://qmk.fm)  
+- VIA Documentation: [https://caniusevia.com](https://caniusevia.com)  
+- Arduino Official Website: [https://www.arduino.cc](https://www.arduino.cc)  
+- Electronics and Circuit Design: [https://www.allaboutcircuits.com](https://www.allaboutcircuits.com)  
+- Open-source firmware repositories on GitHub.  
+
+---
+
+This project will provide a **deep understanding of embedded systems** while delivering a functional, real-world device for enhanced productivity. The planned **VIA integration** will further enhance usability by allowing real-time key remapping without requiring firmware reflashing.
